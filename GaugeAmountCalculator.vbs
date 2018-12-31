@@ -24,10 +24,10 @@ Loop
 
 If vgAmount = amountGauge Then
 
-MsgBox("ノーツ数: " & notes & vbCr & "ボーナス: " & combo & "コンボごとに+ " & bonus & vbCr & "ゲージ上昇率: " & rising & "%" & vbCr & vbCr & "増加量理論値: " & amountGauge & vbCr & "理論上到達ゲージ本数 :" & gaugeNumber)
+MsgBox("ノーツ数: " & notes & vbCr & "ボーナス: " & combo & "コンボごとに+" & bonus & vbCr & "ゲージ上昇率: " & rising & "%" & vbCr & vbCr & "増加量理論値: " & amountGauge & vbCr & "理論上到達ゲージ本数 :" & gaugeNumber)
 
 Else
 
-MsgBox("ノーツ数: " & notes & vbCr & "ボーナス: " & combo & "コンボごとに+ " & bonus & vbCr & "ゲージ上昇率: " & rising & "%" & vbCr & vbCr & "増加量理論値: " & amountGauge & vbCr & "理論上到達ゲージ本数 :" & gaugeNumber - 1)
+MsgBox("ノーツ数: " & notes & vbCr & "ボーナス: " & combo & "コンボごとに+" & bonus & vbCr & "ゲージ上昇率: " & rising & "%" & vbCr & vbCr & "増加量理論値: " & amountGauge & vbCr & "理論上到達ゲージ本数 :" & gaugeNumber - 1)
 
 End If
